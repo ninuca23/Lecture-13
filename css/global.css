@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(244, 244, 236);
+}
+
+.container {
+  max-width: 1166px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 11px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #000000;
+}
+.container a {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 11px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.s-1 h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  margin: 41px 0 27px 0;
+}
+.s-1 .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.s-1 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 32px 0 0 41px;
+  color: #FFFFFF;
+}
+.s-1 .card-1,
+.s-1 .card-2,
+.s-1 .card-3 {
+  width: 362px;
+  height: 357px;
+  border-radius: 7px;
+  background-color: white;
+}
+.s-1 p {
+  font-family: "Roboto", sans-serif;
+  width: 238px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 20px;
+  color: #8A8787;
+  margin: 193px 0 0 37px;
+}
+.s-1 .card-1 {
+  background-image: url(/images/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+}
+.s-1 .card-2 {
+  background-image: url(/images/Rectangle\ 3.png);
+  background-repeat: no-repeat;
+}
+.s-1 .card-3 {
+  background-image: url(/images/Rectangle\ 4.png);
+  background-repeat: no-repeat;
+}
+.s-1 span {
+  color: #8A8787;
+  font-weight: 700;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.fa-clock {
+  margin: 30px 10px 0 40px;
+  color: #8A8787;
+  vertical-align: baseline;
+}
+
+.s-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  margin: 41px 0 27px 0;
+}/*# sourceMappingURL=global.css.map */
