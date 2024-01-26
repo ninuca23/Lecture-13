@@ -55,3 +55,49 @@
     color: #8A8787;
     vertical-align: baseline;
 }
+
+
+@mixin flexbox {
+    display: flex;
+    gap: 45px; 
+    padding-bottom: 36px;
+}
+
+@mixin rightflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@mixin leftflex {
+    display: flex;
+    flex-direction: column;
+    gap:41px;
+}
+
+@mixin footer {
+    width:100%;
+    height: 201px; 
+    background-color:#243043 ;
+    margin-bottom: 50px;
+}
+
+@mixin footerflex {
+    display: flex;
+    justify-content: space-around;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 12px;
+    color: #8A8787;
+    width: 90%;
+}
+
+@mixin list {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 12px;
+    color: #8A8787;
+    line-height: 14px;
+    margin-top: 59px;
+}
+

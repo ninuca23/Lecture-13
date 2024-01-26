@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body {
-    background-color: rgb(244, 244, 236);
+    background-color: rgb(246, 246, 246);
 }
 
 
@@ -45,18 +45,18 @@ body {
 
 
     .card-1 {
-        background-image: url(/images/Rectangle\ 1.png);
+        background-image: url(../images/Rectangle\ 1.png);
         background-repeat: no-repeat;
     
     }
 
     .card-2 {
-        background-image: url(/images/Rectangle\ 3.png);
+        background-image: url(../images/Rectangle\ 3.png);
         background-repeat: no-repeat;
     }
 
     .card-3 {
-        background-image: url(/images/Rectangle\ 4.png);
+        background-image: url(../images/Rectangle\ 4.png);
         background-repeat: no-repeat;
     }
 
@@ -75,6 +75,54 @@ body {
 }
 
 .s-2 {
-    @include headings;
+
+    h1 {
+        @include headings; }
+    
+    .flex {
+        @include flexbox;
+    }
+
+    .rightflex {
+        @include rightflex;
+    }
+
+    .leftflex {
+       @include leftflex;
+    }
+}
+
+.footercontainer{
+    @include footer;
+
+    .footerflex {
+        @include footerflex;
+    }
+
+    .list {
+        @include list;
+    }
+
+    a  {
+        @include list;
+        
+    }
+
+    li {
+        margin-bottom: 14px;
+    }
+
+    .last {
+        font-family: $main-font;
+        font-weight: 400;
+        font-size: 12px;
+        color: white;
+        margin-top: 59px;
+        display: flex;
+    }
+    
+    .image {
+        margin-top: 58px;
+    }
 }
 
